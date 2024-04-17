@@ -233,25 +233,26 @@
                                 </div>
                             </div>
                             <div class="form-inner">
-                                <form method="post" action="https://script.google.com/macros/s/AKfycbxlsDE4cRckq7vG0RjZq-cKAxksh2T6YBQzMdN4Bj_e9dOauwPG5-MP6J33_mdu4dxH/exec" class="default-form"> 
+                                <form method="POST" name="google-sheet"> 
                                     <div class="row clearfix">
                                         <div class="col-xl-6 form-group">
-                                            <input type="name" name="your-name" placeholder="Your Name *" required="" value="">
+                                            <input type="name" name="Name" placeholder="Your Name *" required="" value="">
                                         </div>
                                         <div class="col-xl-6 col-lg-12 form-group">
-                                            <input type="email" name="your-email" placeholder="Your Email *" required="" value="">
+                                            <input type="email" name="Email" placeholder="Your Email *" required="" value="">
                                         </div>
                                         <div class="col-xl-6 col-lg-12 form-group">
-                                            <input type="text" name="subject" placeholder="Your Subject " required="" value="">
+                                            <input type="text" name="Subject" placeholder="Your Subject " required="" value="">
                                         </div>
                                         <div class="col-xl-6 col-lg-12 form-group">
-                                            <input type="text" name="phone" placeholder="Your Phone " required="" value="">
+                                            <input type="text" name="Phone" placeholder="Your Phone " required="" value="">
                                         </div>
                                         <div class="ccol-xl-6 col-lg-12 form-group">
-                                            <textarea name="message" placeholder="Message"></textarea>
+                                            <textarea name="Message" placeholder="Message"></textarea>
                                         </div>
                                         <div class="col-xl-12 form-group message-btn btn-box">
-                                            <button class="theme-btn theme-btn-one" type="submit">Send your Message</button>
+                                            <!-- <button class="theme-btn theme-btn-one" type="submit">Send your Message</button> -->
+                                            <input type="submit" value="Submit" name="submit">
                                         </div>
                                     </div>
                                 </form>
@@ -421,6 +422,7 @@
         <!-- Scroll to top end -->
 
     </div>
+
 
     <!-- jequery plugins -->
     <script src="jquery.js"></script>
